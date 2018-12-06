@@ -68,9 +68,21 @@
 @media screen and (max-width: 575.98px) {
   #skills {
     .skills_list {
+      display: flex;
+      flex-direction: column;
       width: 100%;
-      .skills_top_img {
-        padding-left: 5px;
+      .skills_box{
+        width: 300px;
+        height: 100px;
+        .skills_top_img {
+          padding-left: 5px;
+        }
+        h3{
+          font-size: 15px;
+        }
+        p{
+          font-size: 12px;
+        }
       }
     }
   }

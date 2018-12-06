@@ -394,9 +394,18 @@ table {
 
 @media screen and (max-width: 575.98px) {
   #skills .skills_list {
+    display: flex;
+    flex-direction: column;
     width: 100%; }
-    #skills .skills_list .skills_top_img {
-      padding-left: 5px; } }
+    #skills .skills_list .skills_box {
+      width: 300px;
+      height: 100px; }
+      #skills .skills_list .skills_box .skills_top_img {
+        padding-left: 5px; }
+      #skills .skills_list .skills_box h3 {
+        font-size: 15px; }
+      #skills .skills_list .skills_box p {
+        font-size: 12px; } }
 
 #awesome {
   background-color: #FAFAFA;
