@@ -1,0 +1,149 @@
+#awesome {
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  .awesome_box{
+    width: 1100px;
+    padding-bottom: 90px;
+    padding-top: 90px;
+    h2 {
+      text-align: center;
+      font-family: Brandon Grotesque, sans-serif;
+      color: #000;
+      font-size: 56px;
+      font-weight: 300;
+      line-height: 75px;
+      .bold_letters {
+        font-weight: 700;
+      }
+    }
+    h5 {
+      text-align: center;
+      font-family: Brandon Grotesque, sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      color: #777777;
+      margin-bottom: 50px;
+    }
+    .top_row {
+      display: flex;
+      justify-content: space-evenly;
+
+      .text_row{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        position: relative;
+
+        .gray_text {
+          color: #777777;
+          font-family: Brandon Grotesque, sans-serif;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 28px;
+          position: absolute;
+          z-index: 10;
+          width: 500px;
+          top: 40px;
+          left: 100px;
+        }
+        .blue_text {
+          color: #7690c5;
+          font-family: Brandon Grotesque, sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 36px;
+          position: absolute;
+          z-index: 10;
+          top: 100px;
+          left: 100px;
+        }
+        img{
+          position: relative;
+        }
+      }
+    }
+    .bottom_row{
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 40px;
+      .text_row{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        position: relative;
+
+        .gray_text {
+          color: #777777;
+          font-family: Brandon Grotesque, sans-serif;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 28px;
+          position: absolute;
+          z-index: 10;
+          width: 500px;
+          top: 40px;
+          left: 100px;
+        }
+        .blue_text {
+          color: #7690c5;
+          font-family: Brandon Grotesque, sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 36px;
+          position: absolute;
+          z-index: 10;
+          top: 100px;
+          left: 100px;
+        }
+        img{
+          position: relative;
+        }
+      }
+
+      .circle{
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575.98px){
+  #awesome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .awesome_box{
+      width: 300px;
+      padding-bottom: auto;
+      padding-top: auto;
+      h2{
+        font-size: 20px;
+      }
+      h5 {
+        font-size: 12px;
+      }
+      .top_row{
+
+        .text_row{
+          .test_text{
+            width: 300px; /* Ширина слоя */
+            margin: 7px; /* Значение отступов */
+            padding: 10px; /* Поля вокруг текста */
+            border: 4px solid black; /* Параметры границы */
+            background: #fc0; /* Цвет фона */
+          }
+          p {
+
+          }
+        }
+        img{
+          display: none;
+        }
+      }
+    }
+  }
+}
