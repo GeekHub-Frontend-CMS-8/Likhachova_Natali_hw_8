@@ -54,10 +54,9 @@
 
 @media screen and (max-width: 900px){
   #skills{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     .skills_list{
+      display: flex;
+      flex-direction: column;
       width: 100%;
       .skills_top_img{
         padding-left: 10px;

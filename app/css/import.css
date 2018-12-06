@@ -386,14 +386,12 @@ table {
         line-height: 18px; }
 
 @media screen and (max-width: 900px) {
-  #skills {
+  #skills .skills_list {
     display: flex;
     flex-direction: column;
-    justify-content: center; }
-    #skills .skills_list {
-      width: 100%; }
-      #skills .skills_list .skills_top_img {
-        padding-left: 10px; } }
+    width: 100%; }
+    #skills .skills_list .skills_top_img {
+      padding-left: 10px; } }
 
 @media screen and (max-width: 575.98px) {
   #skills .skills_list {
