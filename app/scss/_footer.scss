@@ -79,6 +79,25 @@ footer{
     line-height: 22px;
   }
 }
+
+@media screen and (max-width: 900px){
+  footer{
+    .contact{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .footer_top{
+        .footer_list{
+          .footer_box{
+
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 575.98px){
   footer{
     .contact{

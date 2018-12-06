@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -489,6 +488,55 @@ table {
         #awesome .awesome_box .bottom_row .text_row img {
           position: relative; }
 
+@media screen and (max-width: 900px) {
+  #awesome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    #awesome .awesome_box {
+      width: 500px;
+      padding-bottom: 30px;
+      padding-top: 20px; }
+      #awesome .awesome_box h2 {
+        font-size: 25px; }
+      #awesome .awesome_box h5 {
+        font-size: 18px; }
+      #awesome .awesome_box .top_row {
+        background-color: #fff;
+        outline: 2px solid #ECECEC; }
+        #awesome .awesome_box .top_row .text_row {
+          width: 100%; }
+          #awesome .awesome_box .top_row .text_row .gray_text {
+            font-size: 18px;
+            width: 500px;
+            left: 0;
+            top: 0;
+            position: relative; }
+          #awesome .awesome_box .top_row .text_row .blue_text {
+            font-size: 16px;
+            position: relative;
+            left: 0;
+            top: 0; }
+        #awesome .awesome_box .top_row img {
+          display: none; }
+      #awesome .awesome_box .bottom_row {
+        background-color: #fff;
+        outline: 2px solid #ECECEC; }
+        #awesome .awesome_box .bottom_row .text_row .gray_text {
+          font-size: 18px;
+          width: 500px;
+          left: 0;
+          top: 0;
+          position: relative; }
+        #awesome .awesome_box .bottom_row .text_row .blue_text {
+          font-size: 16px;
+          position: relative;
+          left: 0;
+          top: 0; }
+        #awesome .awesome_box .bottom_row img {
+          display: none; } }
+
 @media screen and (max-width: 575.98px) {
   #awesome {
     display: flex;
@@ -497,25 +545,48 @@ table {
     align-items: center; }
     #awesome .awesome_box {
       width: 300px;
-      padding-bottom: auto;
-      padding-top: auto; }
+      padding-bottom: 30px;
+      padding-top: 20px; }
       #awesome .awesome_box h2 {
         font-size: 20px; }
       #awesome .awesome_box h5 {
         font-size: 12px; }
-      #awesome .awesome_box .top_row .text_row .test_text {
-        width: 300px;
-        /* Ширина слоя */
-        margin: 7px;
-        /* Значение отступов */
-        padding: 10px;
-        /* Поля вокруг текста */
-        border: 4px solid black;
-        /* Параметры границы */
-        background: #fc0;
-        /* Цвет фона */ }
-      #awesome .awesome_box .top_row img {
-        display: none; } }
+      #awesome .awesome_box .top_row {
+        background-color: #fff;
+        outline: 2px solid #ECECEC; }
+        #awesome .awesome_box .top_row .text_row {
+          width: 100%; }
+          #awesome .awesome_box .top_row .text_row .gray_text {
+            font-size: 16px;
+            width: 300px;
+            left: 0;
+            top: 0;
+            position: relative; }
+          #awesome .awesome_box .top_row .text_row .blue_text {
+            font-size: 14px;
+            position: relative;
+            left: 0;
+            top: 0; }
+        #awesome .awesome_box .top_row img {
+          display: none; }
+      #awesome .awesome_box .bottom_row {
+        background-color: #fff;
+        outline: 2px solid #ECECEC; }
+        #awesome .awesome_box .bottom_row .text_row {
+          padding: 10px; }
+          #awesome .awesome_box .bottom_row .text_row .gray_text {
+            font-size: 16px;
+            width: 300px;
+            left: 0;
+            top: 0;
+            position: relative; }
+          #awesome .awesome_box .bottom_row .text_row .blue_text {
+            font-size: 14px;
+            position: relative;
+            left: 0;
+            top: 0; }
+        #awesome .awesome_box .bottom_row img {
+          display: none; } }
 
 #logos {
   margin: 50px 0px;
@@ -708,6 +779,13 @@ footer {
     font-size: 16px;
     font-weight: 500;
     line-height: 22px; }
+
+@media screen and (max-width: 900px) {
+  footer .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; } }
 
 @media screen and (max-width: 575.98px) {
   footer .contact {
